@@ -1,0 +1,58 @@
+.w3-jumbo{
+
+color: #333333;
+font-family: 'Palatino Linotype', 'Book Antiqua', Palatino, sans-serif;
+font-size:90px!important;
+
+
+}
+
+.w3-jumbo2{
+text-align: center;
+color: #333333;
+font-family: 'Palatino Linotype', 'Book Antiqua', Palatino, sans-serif;
+font-size:90px!important;
+
+
+}
+
+.contened0r{
+
+	display: flex;
+	width: 1160px;
+	height: 110px;
+	color: #fff;
+	font-size: 40px;
+
+top: 0;
+right: 0;
+
+left: 0;
+margin: auto;
+overflow: hidden;
+}
+
+
+
+#parra{
+	font-size:20px!important;
+  margin-left: 11em;
+  margin-right: 10em;
+
+}
+#parra2{
+	width: 600px;
+
+	font-size:20px!important;
+  margin-left: 11em;
+  margin-right: 10em;
+  align-items: center;
+  border-radius:10px;
+    border-style: solid;
+}
+
+hr{
+	width: 80%;
+	border: solid 1px;
+}
+

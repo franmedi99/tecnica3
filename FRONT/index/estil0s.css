@@ -1,0 +1,78 @@
+.w3-jumbo{
+
+color: #333333;
+font-family: 'Palatino Linotype', 'Book Antiqua', Palatino, sans-serif;
+font-size:90px!important;
+
+
+}
+
+.w3-jumbo2{
+text-align: center;
+color: #333333;
+font-family: 'Palatino Linotype', 'Book Antiqua', Palatino, sans-serif;
+font-size:90px!important;
+
+
+}
+
+.contenedor{
+
+	display: flex;
+	width: 1160px;
+	height: 110px;
+	color: #fff;
+	font-size: 40px;
+
+top: 0;
+right: 0;
+
+left: 0;
+margin: auto;
+overflow: hidden;
+}
+
+
+ul{
+	list-style: none;
+	padding-left: 10px;
+	animation: cambiar 7s infinite;
+}
+
+ul, p{
+
+	margin: 0;
+}
+
+@keyframes cambiar{
+	0%{margin-top: 0;}
+
+	20% {margin-top: -130px;}
+40% {margin-top: -130px;}
+
+	40% {margin-top: -130px;}
+	100%{margin-top: 0;}
+}
+
+#parra{
+	font-size:20px!important;
+  margin-left: 11em;
+  margin-right: 10em;
+
+}
+#parra2{
+	width: 600px;
+
+	font-size:20px!important;
+  margin-left: 11em;
+  margin-right: 10em;
+  align-items: center;
+  border-radius:10px;
+    border-style: solid;
+}
+
+hr{
+	width: 80%;
+	border: solid 1px;
+}
+

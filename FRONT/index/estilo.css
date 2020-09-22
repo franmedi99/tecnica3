@@ -1,0 +1,161 @@
+	/*  MENU                   */
+	.contenedor{
+	display: block;	
+	width: 100%;
+	background-color:#25CCF7;
+	max-width: 100%;
+	margin: auto;
+	}blue
+
+	ul, ol {
+	list-style:none;
+	}
+
+			
+	.nav > li {
+	float:left;
+
+		-webkit-transition: all ease .0,3s;
+	-o-transition:all ease .0,3s;
+	transition:all ease .0,3s ;
+	
+	}
+
+			
+	.nav li a {
+
+		
+		font-family: sans-serif;
+	display: block;	
+	position: relative;		 
+	background-color:#25CCF7;
+	color:white;
+	text-decoration:none;
+	padding:  25px 30px;
+	display:block;
+	transition-property: all;
+	transition-duration:1s;  
+	-webkit-transition: all ease .3s;
+	-o-transition:all ease .3s;
+	transition:all ease .3s ;
+
+	}
+
+	.er{
+	position: absolute;
+	right: 0%;
+	}
+			
+
+			
+	.nav li ul {
+	z-index: 1000;
+	width: 100%;
+	display:none;
+	position:absolute;
+	max-width: 159px;
+	max-height: 3000px;
+	overflow: hidden;
+	}
+	
+	.w3-container h2{
+	text-align: center;
+	margin-top: 50px;
+	}
+			
+	.nav li:hover > ul {
+	display:block;
+	}
+			
+	.nav li ul li {
+	position:relative;
+	}
+			
+	.nav li ul li ul {
+	right:-40px;
+	top:0px;
+	}
+
+	.menu-fixed{
+	background: #25CCF7;
+	position: fixed;
+	z-index: 1000;
+	top:0;
+	left:0;
+	width: 100%;
+	height: 83px;
+
+
+	
+	box-shadow: 5px 5px 5px rgba(0,0,0,.5);
+	}
+	.menu-fixed ul li a{
+	padding: 30px 35px;
+	max-width: 379px;
+	max-height: 3000px;
+	}
+	.menu-fixed img{
+	display: block;	
+	width: 80px;
+	height: 80px;
+	-webkit-transition: all ease .1s;
+	-o-transition:all ease .1s;
+	transition:all ease .1s ;
+	}
+
+ 	.con{
+ 	position: center;
+ 	width:80%;
+ 	height: 600px;
+ 	}
+ 	.texto{
+ 	width: 80%;
+ 	padding: 15px;
+  	font-family: sans-serif;
+  	color: black;
+  	margin-left: 20px; 
+  	margin-top: 50px;
+ 	height: 600px;
+ 	}
+ 	.espacio{
+ 	width: 100%;
+ 	height: 100px;
+ 	margin: 200px;
+ 	
+ 	}
+	}
+	}
+ 	 
+.centrado-porcentuala {
+  width: 750px;
+  height: 400px;
+    position: relative;
+    left: 400px;
+    top: 300px; 
+    transform: translate(-50%, -50%);
+    -webkit-transform: translate(-50%, -50%);
+}
+
+
+		#menu li a:before{
+		content: :'';
+		width: 60px;
+		position: absolute;
+		border-bottom: 8px solid #313131;
+		bottom: 0;
+		right: 350px;
+		transition: 0.7 all;
+	}
+
+	#menu li a :hover:before{
+		right: 0;
+	}
+
+	body{
+		margin:0;
+		padding: 0;
+
+	}
+
+</style>
+
